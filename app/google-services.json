@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "380013951533",
+    "firebase_url": "https://stock-screener-1995.firebaseio.com",
+    "project_id": "stock-screener-1995",
+    "storage_bucket": "stock-screener-1995.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380013951533:android:e4b6a123a1174749de56a4",
+        "android_client_info": {
+          "package_name": "com.me.stockserver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "380013951533-kru3bv51ip5v489lnf45nqukjbkhm5s9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8-V2qUcHLTSoPfwTwJ9hP8DRvUEzfx90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "380013951533-kru3bv51ip5v489lnf45nqukjbkhm5s9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

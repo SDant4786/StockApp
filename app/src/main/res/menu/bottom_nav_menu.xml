@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_purchasable"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Purchasable" />
+
+    <item
+        android:id="@+id/navigation_user_stocks"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="My Stocks" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@android:drawable/ic_menu_recent_history"
+        android:title="@string/title_notifications" />
+    <item
+        android:id="@+id/navigation_algorithm"
+        android:icon="@android:drawable/btn_star"
+        android:title="Algorithm" />
+</menu>

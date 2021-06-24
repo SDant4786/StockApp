@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Indicators" >
+        <item>Add Indicator</item>
+        <item>AccumulationDistribution</item>
+        <item>ADX</item>
+        <item>AverageVolume</item>
+        <item>Bollinger Bands</item>
+        <item>CloseGreaterThanPrevious</item>
+        <item>LastClose</item>
+        <item>EMA</item>
+        <item>RSI</item>
+        <item>SMA</item>
+        <item>VolumeJump</item>
+    </string-array>
+    <string-array name="TimeFrames" >
+        <item>Select time frame</item>
+        <item>One Week</item>
+        <item>One Day</item>
+        <item>Four Hour</item>
+        <item>One Hour</item>
+    </string-array>
+</resources>

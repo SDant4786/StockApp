@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_purchasable">
+
+    <fragment
+        android:id="@+id/navigation_purchasable"
+        android:name="com.me.stockserver.ui.purchasable.PurchasableFragment"
+        android:label="Purchasable"
+        tools:layout="@layout/fragment_purchaseable" />
+
+    <fragment
+        android:id="@+id/navigation_user_stocks"
+        android:name="com.me.stockserver.ui.userstocks.UserStocksFragment"
+        android:label="My Stocks"
+        tools:layout="@layout/fragment_user_stocks" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.me.stockserver.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_algorithm"
+        android:name="com.me.stockserver.ui.algorithm.AlgorithmFragment"
+        android:label="Algorithm"
+        tools:layout="@layout/fragment_algorithm"/>
+    <fragment
+        android:id="@+id/fragment_stock_data"
+        android:name="com.me.stockserver.ui.stockData.StockData"
+        android:label="Stock Data"
+        tools:layout="@layout/fragment_stock_data" >
+        <argument
+            android:name="stockData"
+            app:argType="com.me.stockserver.data.structs.Stock" />
+    </fragment>
+</navigation>
